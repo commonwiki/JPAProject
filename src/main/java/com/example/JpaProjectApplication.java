@@ -1,7 +1,5 @@
 package com.example;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -27,15 +25,15 @@ public class JpaProjectApplication implements CommandLineRunner {
 				new Customer("user02", 20)
 		};
 		
-		for (Customer customer : customerArray) {
-			customerRepository.save(customer);
-		}
-		
-		List<Customer> listOfCustomers = customerRepository.findAll();
-		
-		for (Customer customer : listOfCustomers) {
-			System.out.println("listOfCustomer = " + customer.toString());
-		}
+//		for (Customer customer : customerArray) {
+//			customerRepository.save(customer);
+//		}
+//		
+//		List<Customer> listOfCustomers = customerRepository.findAll();
+//		
+//		for (Customer customer : listOfCustomers) {
+//			System.out.println("listOfCustomer = " + customer.toString());
+//		}
 		
 	}
 	
