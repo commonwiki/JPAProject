@@ -12,9 +12,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import com.aspose.words.Document;
 import com.aspose.words.License;
-import com.example.aspose.ProcessWord;
-import com.example.entity.Plan;
-import com.example.repository.PlanRepository;
+import com.example.plan.aspose.ProcessWord;
+import com.example.plan.entity.Plan;
+import com.example.plan.repository.PlanRepository;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

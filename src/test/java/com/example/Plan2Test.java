@@ -13,9 +13,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import com.aspose.words.Document;
 import com.aspose.words.License;
-import com.example.aspose.ProcessWord;
-import com.example.entity.Plan2;
-import com.example.repository.Plan2Repository;
+import com.example.plan.aspose.ProcessWord;
+import com.example.plan.entity.Plan2;
+import com.example.plan.repository.Plan2Repository;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

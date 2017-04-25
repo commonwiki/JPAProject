@@ -1,4 +1,4 @@
-package com.example.aspose;
+package com.example.plan.aspose;
 
 import org.springframework.stereotype.Component;
 
